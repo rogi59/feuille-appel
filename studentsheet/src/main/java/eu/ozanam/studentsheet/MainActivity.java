@@ -24,7 +24,7 @@ public class MainActivity extends ActionBarActivity {
         classRoomButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Toto", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Toto", Toast.LENGTH_SHORT).show();
             }
         });
     }
